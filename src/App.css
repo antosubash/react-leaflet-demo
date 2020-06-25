@@ -2,3 +2,27 @@
   width: 100%;
   height: 100vh;
 }
+
+.leaflet-popup-content-wrapper {
+    width: 800px;
+    height: 650px;
+}
+.leaflet-popup-content{
+
+}
+
+#content {
+  display: grid;
+  grid-template-columns: 70% auto;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  padding: 10px;
+  width: 30vw;
+  height: 50vh;
+}
+
+#left, #right {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 12px;
+}
